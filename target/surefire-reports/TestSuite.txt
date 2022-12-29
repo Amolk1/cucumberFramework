@@ -1,0 +1,37 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 6.773 s <<< FAILURE! - in TestSuite
+awesomecucumber.runners.MyTestNGRunnerTest.runScenario["Add one quantity from Store", "Optional[Add to cart]"](1)  Time elapsed: 3.947 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=108.0.5359.125)
+Build info: version: '4.0.0-rc-2', revision: '8d1e4aa5ae'
+System info: host: 'DESKTOP-CLJO024', ip: '192.168.1.7', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ba1a521068598ad21ddfed81bf040919, get {url=https://prod.askomdch.com/store}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\kumbh\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62035}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62035/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ba1a521068598ad21ddfed81bf040919
+
+awesomecucumber.runners.MyTestNGRunnerTest.runScenario["using default payment option", "Optional[Place an order]"](2)  Time elapsed: 4 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=108.0.5359.125)
+Build info: version: '4.0.0-rc-2', revision: '8d1e4aa5ae'
+System info: host: 'DESKTOP-CLJO024', ip: '192.168.1.7', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ffb0e6d372be03c0ca8ed3384e94a407, get {url=https://prod.askomdch.com/store}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\kumbh\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62037}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62037/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ffb0e6d372be03c0ca8ed3384e94a407
+
+awesomecucumber.runners.MyTestNGRunnerTest.runScenario["Add one quantity from Store", "Optional[Add to cart]"](3)  Time elapsed: 4.03 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=108.0.5359.125)
+Build info: version: '4.0.0-rc-2', revision: '8d1e4aa5ae'
+System info: host: 'DESKTOP-CLJO024', ip: '192.168.1.7', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [14daee6b8d0d009b079be8f6245e1d8d, get {url=https://prod.askomdch.com/store}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\kumbh\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62034}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62034/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 14daee6b8d0d009b079be8f6245e1d8d
+
