@@ -1,0 +1,12 @@
+# cucumberFramework
+git init
+git status
+git add --all
+git remote add origin "giturl"
+git remote -v
+git commmit -m "msg"
+git push -u origin master
+
+
+
+
